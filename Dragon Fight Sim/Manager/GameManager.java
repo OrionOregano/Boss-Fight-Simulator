@@ -28,7 +28,7 @@ public class GameManager {
         // =====================================================
         System.out.println("====================================");
         System.out.println("     WELCOME TO DRAGON FIGHT SIM    ");
-        System.out.println("        SELECT YOUR CHARACTERS        ");
+        System.out.println("       SELECT YOUR CHARACTERS       ");
         System.out.println("====================================");
 
         System.out.println("Available characters:");
