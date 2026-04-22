@@ -26,9 +26,14 @@ public class GameManager {
         // =====================================================
         // CHARACTER SELECTION MENU
         // =====================================================
+        AsciiArtPrinter.printDragonFightSim();
+        System.out.println("Press Enter to continue...");
+        try {
+            System.in.read();
+        } catch (Exception e) {}
+
         System.out.println("====================================");
-        System.out.println("     WELCOME TO DRAGON FIGHT SIM    ");
-        System.out.println("       SELECT YOUR CHARACTERS       ");
+        System.out.println("        SELECT YOUR CHARACTERS        ");
         System.out.println("====================================");
 
         System.out.println("Available characters:");
