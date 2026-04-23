@@ -1,4 +1,4 @@
-This is the program made by the Javastrophe group for Chula's Information and Communication Engingeering program's Advanced Computer Programming Course, it is called "Boss Fight". In this program, you pick 3 characters who will fight various foes. You can even create your own character to join the fight. It takes place inside the terminal, basically a text adventure.
+This is the program made by the Javastrophe group for Chula's Information and Communication Engingeering program's Advanced Computer Programming Course, it is called "Boss Fight". It is a text-based turn-based RPG that outputs text inside the terminal. In this program, you pick 3 characters who will fight various foes. You can even create your own character to join the fight.
 
 Create a party of three heroes as you venture into the throes of battle. Choose pre-built, or make your own. With 3 unique bosses to fight, can you overcome this challenge?
 Run the file "RunGame.bat" to run the game
