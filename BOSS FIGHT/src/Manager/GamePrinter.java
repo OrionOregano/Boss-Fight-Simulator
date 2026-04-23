@@ -46,8 +46,8 @@ public class GamePrinter {
 
     // PRINTS TITLE
     public static void printTitle() {
-        // CALLED TO CLEAR THE SCREEN
         clearScreen();
+
         String[] art = {
             "/$$$$$$$$  /$$$$$$$  /$$$$$$$  /$$$$$$$       /$$$$$$$$$/$$$$$$$$/$$$$$$  /$$   /$$ /$$$$$$$$$",
             "| $$__  $$ /$$__  $$ /$$__  $$ /$$__  $$      | $$_____/|_  $$_/ /$$__  $$| $$  | $$|__  $$__/",
@@ -59,13 +59,24 @@ public class GamePrinter {
             "|_______/  \\______/  \\______/  \\______/       |__/      |______/ \\______/ |__/  |__/   |__/"
         };
 
-        GamePrinter.println("");
-        for (String line : art) {
-            System.out.println(line);
+        // ESCAPE INDICATOR FOR COLORS
+        String[] colors = {
+            "\u001B[91m", // red
+            "\u001B[91m", // red
+            "\u001B[34m", // blue
+            "\u001B[34m", // blue
+            "\u001B[32m", // green
+            "\u001B[32m", // green
+            "\u001B[33m", // yellow
+            "\u001B[33m", // yellow
+        };
+
+        for (int i = 0; i < art.length; i++) {
+            String color = colors[i % colors.length];
+            System.out.println(color + art[i] + "\u001B[0m");
             sleep(200);
         }
-
-        System.out.println("\n");
+        GamePrinter.println("\n");
     }
 
     // TO CREATE THE DELAY SO TEXT SLOWLY PRINTS OUT
