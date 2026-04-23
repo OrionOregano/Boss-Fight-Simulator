@@ -1,4 +1,7 @@
 @echo off
-javac Game.java
-java Game
+
+if not exist bin mkdir bin
+
+javac -d bin -sourcepath src src/Game.java
+
 pause
