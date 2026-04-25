@@ -6,8 +6,8 @@ Run the file "RunGame.bat" to run the game
 The program is built on java and uses 3 main patterns, Factory, Strategy, and Singleton.
 
 Javastrophe Group Members :
-Satetawut Kosintrakarn (Atom) #6838312121
-Vathadee Chokwatana (Web) #6838283621
+Satetawut Kosintrakarn (Atom) #6838312121,
+Vathadee Chokwatana (Web) #6838283621.
 Elena-Alexandra Ciobotaru (Alexandra) #6802027529
 
 Class Tree :
